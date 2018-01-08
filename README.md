@@ -15,12 +15,12 @@ Client->Server: TCP ACK
 > SYN : synchronize sequence numbers
 > ACK : acknowledgment
 
-**STEP 1 : ** **Client**는 Server에 **접속을 요청하는 SYN 패킷**을 보낸다.
+**STEP 1** : **Client**는 Server에 **접속을 요청하는 SYN 패킷**을 보낸다.
 
-**STEP 2 : ** **Server**는 SYN 요청을 받고 Client에게 요청을 수락한다는 **ACK와 SYN flag가 설정된 패킷을 발송**하고 
+**STEP 2** : **Server**는 SYN 요청을 받고 Client에게 요청을 수락한다는 **ACK와 SYN flag가 설정된 패킷을 발송**하고 
 ​			A가 다시 ACK으로 응답하기를 기다린다.
 
-​**STEP 3** : **Client**는 Server에게 **ACK**를 보내고 이후로 부터는 연결이 이루어지고 데이터가 오가게 된다.
+**STEP 3** : **Client**는 Server에게 **ACK**를 보내고 이후로 부터는 연결이 이루어지고 데이터가 오가게 된다.
 
 ------
 
