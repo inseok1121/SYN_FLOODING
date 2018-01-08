@@ -12,7 +12,7 @@ Server->Client: TCP SYN ACK
 Client->Server: TCP ACK
 ```
 
-> SYN : synchronize sequence numbers
+> SYN : synchronize sequence numbers</br>
 > ACK : acknowledgment
 
 **STEP 1** : **Client**는 Server에 **접속을 요청하는 SYN 패킷**을 보낸다.
