@@ -26,7 +26,7 @@ Client->Server: TCP ACK
 
 SYN Flooding : Server에 **SYN 패킷을 지속적으로 보내 Server를 마비**시키는 공격 기법
 
-![synflooding](C:\Users\insec\Desktop\BOB\images\synflooding.png)
+![synflooding](https://github.com/inseok1121/images/blob/master/synflooding.png?raw=true)
 
 - Server는 수신한 **각 SYN에 대해 자신의 연결 테이블에 입력**을 하고 **각 메시지에 SYN-ACK 메시지로 응답**을 한다. 
 - 그러면 공격자는 ACK 메시지를 보내지 않거나 여러 차례 보내고 SYN 패킷에서 **Client IP 주소를 Spoofing**해서 대상 서버가 ACK **응답을 수신하지 못하게** 한다. 
